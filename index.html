@@ -1,0 +1,86 @@
+<!DOCTYPE HTML>
+<html class="ht-100">
+  <head>
+    <meta charset="utf-8"/>
+    <title>Chess Analysis [alpha]</title>
+    <link rel="stylesheet" href="css/chess-analysis.css" />
+    <link rel="stylesheet" href="css/chessboard-0.3.0.min.css" />
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    <!-- <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous"> -->
+    <link rel="stylesheet" type="text/css" href="//fonts.googleapis.com/css?family=Lobster" />
+
+  </head>
+    <!-- <body style="background-color:#6F6C6C"> -->
+    <body class="ht-100">
+
+      <!-- Header/Navbar -->
+      <nav class="navbar navbar-fixed-top navbar-expand navbar-dark bg-dark ht-8">
+        <a class="navbar-brand lobster" href="#!/">Chess Analysis</a>
+        <div class="collapse navbar-collapse">
+        <ul class="navbar-nav ml-auto">
+          <li class="nav-item active">
+            <a class="nav-link" href="#!/about">About</a>
+          </li>
+        </ul>
+      </nav>
+
+      <!-- App, mountpoint -->
+      <div id="app" class="w-100 ht-86"></div>
+
+      <!-- Footer -->
+      <footer class="footer fixed-bottom bg-dark ht-5 footer-custom">
+        &copy; Patrick Frank, 2018
+      </footer>
+
+      <!-- Modals -->
+
+      <div id="ms"></div>
+
+
+      <!-- Output -->
+      <!-- <div class="container-fluid">
+        <div class="row">
+          <div class="col-6">
+            <div id="board" style="width:350px;height:350px;padding:50px auto;align:center"></div>
+            <br/>
+            <br/>
+            <br/>
+          </div>
+          <div class="col-6">
+            <span>FEN:</span><div id="fen"></div>
+            <span>PGN:</span><div id="pgn"></div>
+          </div>
+        </div>
+        <div class="row">
+          <div class="col-6">
+            <div id="ana1"></div>
+          </div>
+          <div class="col-6">
+            <span>Databases</span><div id="dbs"></div>
+          </div>
+        </div>
+      </div>
+      <footer class="footer">Dependencies: Bootstrap(MIT), chessboard.js(MIT), mithril.js(MIT), chess.js(<a href="https://github.com/jhlywa/chess.js/blob/master/LICENSE">BSD</a>), JQuery(MIT), shortcut.js(BSD), stockfish.js(Niklas Fiekas
+,GPL-3.0), lozza.js(http://op12no2.me/toys/lozza/), garbochess.js(<a href="https://github.com/glinscott/Garbochess-JS/blob/master/LICENSE">BSD</a>), tomitankChess(Kuzmics Tamás, GPL-3.0)</footer> -->
+
+
+<!-- Dependencies -->
+<script src="js/mithril.js"></script>
+<script src="js/cycle.js"></script>
+<!-- <script src="js/TreeModel.js"></script> -->
+<script src="https://cdnjs.cloudflare.com/ajax/libs/chess.js/0.10.2/chess.min.js"></script>
+<script src="js/chessboard-0.3.0.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js" integrity="sha256-hwg4gsxgFZhOsEEamdOYGBf13FyQuiTwlAQgxVSNgt4=" crossorigin="anonymous"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+<!-- <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script> -->
+<!-- <script src="js/test.js"></script> -->
+<!-- <script src="js/game-functionsv3.js"></script> -->
+<script src="js/chess-analysis.min.js"></script>
+<script src="js/shortcut.js"></script>
+<script src="js/hotkeys.js"></script>
+<!-- <script src="js/app.js"></script> -->
+<!-- <script src="js/engine.js"></script> -->
+
+</body>
+</html>

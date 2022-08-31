@@ -1,0 +1,56 @@
+#pgn span {
+  border-style: solid;
+  border-color: red;
+  border-radius: 3px;
+  border-width: 1px
+}
+
+.selected {
+  background-color: #FFFF80
+}
+
+.v0 {
+  cursor: pointer;
+  font-size: 15px
+}
+
+.v1 {
+  cursor: pointer;
+  font-size: 10px;
+}
+
+.v2 {
+  cursor: pointer;
+  font-size: 7px;
+  font-style: italic
+}
+
+.v3 {
+  cursor: pointer;
+  font-size: 7px;
+  font-family: monospace;
+}
+
+.comment {
+  font-family: monospace;
+}
+
+.selected-game {
+  background-color: #B3FFB3;
+}
+
+.db-selected {
+  background-color: #1EBCBF;
+}
+
+.pgn {
+  height: 150px;
+  width: 400px;
+  overflow: auto;
+}
+
+.db-table{
+  height: 150px;
+  width: 400px;
+  overflow: auto;
+}

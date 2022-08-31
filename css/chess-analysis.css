@@ -1,0 +1,145 @@
+/*height wrappers, height as percentage*/
+.ht-5{
+  height:5%;
+}
+.ht-8{
+  height:8%;
+}
+.ht-25{
+  height:25%;
+}
+.ht-30{
+  height:30%;
+}
+.ht-40{
+  height:40%;
+}
+.ht-50{
+  height:50%;
+}
+.ht-60{
+  height:60%;
+}
+.ht-70{
+  height:70%;
+}
+.ht-86{
+  height:86%;
+}
+.ht-100{
+  height:100%;
+}
+
+/*styling for navbar*/
+.lobster{
+  font-family: Lobster;
+  font-style: normal;
+  font-variant: normal;
+}
+#app{
+  position:fixed;
+  top:9%;
+}
+
+/*styling for footer*/
+.footer-custom{
+  color:white;
+}
+
+/*progress bar*/
+.progress-grad{
+  height:20px !important;
+  width:100px;
+  background: linear-gradient(to right, #ff0000 , #00ff00 );
+}
+.progress-hide{
+  background:#cccccc !important;
+}
+
+/*test*/
+/*.input-xs {
+  height: 22px;
+  padding: 2px 5px;
+  font-size: 12px;
+  line-height: 1.5;
+  border-radius: 3px;
+}
+.input-group-xs>.form-control,
+.input-group-xs>.input-group-addon,
+.input-group-xs>.input-group-btn>.btn {
+    height: 22px;
+    padding: 1px 5px;
+    font-size: 12px;
+    line-height: 1.5;
+}*/
+.d{
+  border: 3px solid blue !important;
+  background-color: lightgrey;
+}
+
+.modal-backdrop {
+  bottom: 0;
+}
+
+.r{
+  resize: horizontal;
+}
+
+#pgn span {
+  border-style: solid;
+  border-color: red;
+  border-radius: 3px;
+  border-width: 1px
+}
+
+.selected {
+  background-color: #FFFF80
+}
+
+.v0 {
+  cursor: pointer;
+  font-size: 15px
+}
+
+.v1 {
+  cursor: pointer;
+  font-size: 10px
+}
+
+.v2 {
+  cursor: pointer;
+  font-size: 7px;
+  font-style: italic
+}
+
+.v3 {
+  cursor: pointer;
+  font-size: 7px;
+  font-family: monospace;
+}
+
+.comment {
+  font-family: monospace;
+}
+
+.selected-game {
+  background-color: #B3FFB3;
+}
+
+.db-selected {
+  background-color: #1EBCBF;
+}
+
+.pgn {
+  height:200px;
+  overflow-y: scroll;
+}
+
+.db-table{
+  height: 100px;
+  overflow: auto;
+}
+
+.analysis-select{
+  background-color: #FFFF80
+}
